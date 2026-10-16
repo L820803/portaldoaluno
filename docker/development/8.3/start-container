@@ -32,6 +32,8 @@ if gosu sail test -w /var/www/html; then
 else
     echo "sail nao consegue escrever em /var/www/html. Instalando dependencias como root."
     AS_OWNER=""
+    # php, vite e workers do supervisor tambem precisam escrever no projeto
+    export SUPERVISOR_PHP_USER=root
 fi
 
 # Composer
