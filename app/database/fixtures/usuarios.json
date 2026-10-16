@@ -1,0 +1,10 @@
+[
+    {
+        "id": 1,
+        "name": "MARIA EDUARDA DA SILVA SOUZA",
+        "login": "123456",
+        "senha": "aluno123",
+        "email": "maria.eduarda@example.com",
+        "validated_email": true
+    }
+]

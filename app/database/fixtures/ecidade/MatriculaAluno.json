@@ -1,0 +1,627 @@
+{
+    "codigo_matricula": 98765,
+    "data_matricula": "2026-01-20",
+    "situacao_matricula": "MATRICULADO",
+    "turma_escola": "EMEF PROFESSORA MARIA DE NAZARÉ",
+    "turma_matricula": "8º ANO A",
+    "turma_turno": "MANHÃ",
+    "etapa_matricula": "8º ANO",
+    "turma_calendario": "CALENDÁRIO 2026",
+    "resultado_final_etapa": "EM ANDAMENTO",
+    "grade_aproveitamento": [
+        {
+            "iCodigoRegencia": 101,
+            "sNome": "LÍNGUA PORTUGUESA",
+            "aAproveitamento": [
+                {
+                    "iCodigo": 1,
+                    "sDescricao": "1º BIMESTRE",
+                    "sDescricaoAbreviada": "1º BIM",
+                    "sFormaAvaliacao": "NOTA",
+                    "oAproveitamento": {
+                        "nAproveitamento": "8.0",
+                        "iFaltas": 1,
+                        "lAtingiuMinimo": true,
+                        "sParecer": "",
+                        "sTipoAmparo": "",
+                        "aPareceresPadronizados": []
+                    }
+                },
+                {
+                    "iCodigo": 2,
+                    "sDescricao": "2º BIMESTRE",
+                    "sDescricaoAbreviada": "2º BIM",
+                    "sFormaAvaliacao": "NOTA",
+                    "oAproveitamento": {
+                        "nAproveitamento": "7.5",
+                        "iFaltas": 0,
+                        "lAtingiuMinimo": true,
+                        "sParecer": "",
+                        "sTipoAmparo": "",
+                        "aPareceresPadronizados": []
+                    }
+                },
+                {
+                    "iCodigo": 3,
+                    "sDescricao": "3º BIMESTRE",
+                    "sDescricaoAbreviada": "3º BIM",
+                    "sFormaAvaliacao": "NOTA",
+                    "oAproveitamento": {
+                        "nAproveitamento": "9.0",
+                        "iFaltas": 2,
+                        "lAtingiuMinimo": true,
+                        "sParecer": "",
+                        "sTipoAmparo": "",
+                        "aPareceresPadronizados": []
+                    }
+                },
+                {
+                    "iCodigo": 4,
+                    "sDescricao": "4º BIMESTRE",
+                    "sDescricaoAbreviada": "4º BIM",
+                    "sFormaAvaliacao": "NOTA",
+                    "oAproveitamento": {
+                        "nAproveitamento": "",
+                        "iFaltas": 0,
+                        "lAtingiuMinimo": true,
+                        "sParecer": "",
+                        "sTipoAmparo": "",
+                        "aPareceresPadronizados": []
+                    }
+                }
+            ],
+            "oFrequencia": {
+                "iTotalAulas": 160,
+                "nPercentualFrequencia": "98.1"
+            },
+            "oResultadoFinal": {
+                "nAproveitamentoFinal": "8.2",
+                "sTermoResultadoFinal": "",
+                "sTermoResultadoFinalAbreviado": "",
+                "lAprovadoProgressaoParcial": false
+            }
+        },
+        {
+            "iCodigoRegencia": 102,
+            "sNome": "MATEMÁTICA",
+            "aAproveitamento": [
+                {
+                    "iCodigo": 1,
+                    "sDescricao": "1º BIMESTRE",
+                    "sDescricaoAbreviada": "1º BIM",
+                    "sFormaAvaliacao": "NOTA",
+                    "oAproveitamento": {
+                        "nAproveitamento": "5.5",
+                        "iFaltas": 2,
+                        "lAtingiuMinimo": false,
+                        "sParecer": "",
+                        "sTipoAmparo": "",
+                        "aPareceresPadronizados": []
+                    }
+                },
+                {
+                    "iCodigo": 2,
+                    "sDescricao": "2º BIMESTRE",
+                    "sDescricaoAbreviada": "2º BIM",
+                    "sFormaAvaliacao": "NOTA",
+                    "oAproveitamento": {
+                        "nAproveitamento": "6.0",
+                        "iFaltas": 1,
+                        "lAtingiuMinimo": true,
+                        "sParecer": "",
+                        "sTipoAmparo": "",
+                        "aPareceresPadronizados": []
+                    }
+                },
+                {
+                    "iCodigo": 3,
+                    "sDescricao": "3º BIMESTRE",
+                    "sDescricaoAbreviada": "3º BIM",
+                    "sFormaAvaliacao": "NOTA",
+                    "oAproveitamento": {
+                        "nAproveitamento": "7.5",
+                        "iFaltas": 0,
+                        "lAtingiuMinimo": true,
+                        "sParecer": "",
+                        "sTipoAmparo": "",
+                        "aPareceresPadronizados": []
+                    }
+                },
+                {
+                    "iCodigo": 4,
+                    "sDescricao": "4º BIMESTRE",
+                    "sDescricaoAbreviada": "4º BIM",
+                    "sFormaAvaliacao": "NOTA",
+                    "oAproveitamento": {
+                        "nAproveitamento": "",
+                        "iFaltas": 0,
+                        "lAtingiuMinimo": true,
+                        "sParecer": "",
+                        "sTipoAmparo": "",
+                        "aPareceresPadronizados": []
+                    }
+                }
+            ],
+            "oFrequencia": {
+                "iTotalAulas": 160,
+                "nPercentualFrequencia": "98.1"
+            },
+            "oResultadoFinal": {
+                "nAproveitamentoFinal": "6.3",
+                "sTermoResultadoFinal": "",
+                "sTermoResultadoFinalAbreviado": "",
+                "lAprovadoProgressaoParcial": false
+            }
+        },
+        {
+            "iCodigoRegencia": 103,
+            "sNome": "CIÊNCIAS",
+            "aAproveitamento": [
+                {
+                    "iCodigo": 1,
+                    "sDescricao": "1º BIMESTRE",
+                    "sDescricaoAbreviada": "1º BIM",
+                    "sFormaAvaliacao": "NOTA",
+                    "oAproveitamento": {
+                        "nAproveitamento": "9.0",
+                        "iFaltas": 0,
+                        "lAtingiuMinimo": true,
+                        "sParecer": "",
+                        "sTipoAmparo": "",
+                        "aPareceresPadronizados": []
+                    }
+                },
+                {
+                    "iCodigo": 2,
+                    "sDescricao": "2º BIMESTRE",
+                    "sDescricaoAbreviada": "2º BIM",
+                    "sFormaAvaliacao": "NOTA",
+                    "oAproveitamento": {
+                        "nAproveitamento": "8.5",
+                        "iFaltas": 0,
+                        "lAtingiuMinimo": true,
+                        "sParecer": "",
+                        "sTipoAmparo": "",
+                        "aPareceresPadronizados": []
+                    }
+                },
+                {
+                    "iCodigo": 3,
+                    "sDescricao": "3º BIMESTRE",
+                    "sDescricaoAbreviada": "3º BIM",
+                    "sFormaAvaliacao": "NOTA",
+                    "oAproveitamento": {
+                        "nAproveitamento": "8.0",
+                        "iFaltas": 1,
+                        "lAtingiuMinimo": true,
+                        "sParecer": "",
+                        "sTipoAmparo": "",
+                        "aPareceresPadronizados": []
+                    }
+                },
+                {
+                    "iCodigo": 4,
+                    "sDescricao": "4º BIMESTRE",
+                    "sDescricaoAbreviada": "4º BIM",
+                    "sFormaAvaliacao": "NOTA",
+                    "oAproveitamento": {
+                        "nAproveitamento": "",
+                        "iFaltas": 0,
+                        "lAtingiuMinimo": true,
+                        "sParecer": "",
+                        "sTipoAmparo": "",
+                        "aPareceresPadronizados": []
+                    }
+                }
+            ],
+            "oFrequencia": {
+                "iTotalAulas": 96,
+                "nPercentualFrequencia": "99.0"
+            },
+            "oResultadoFinal": {
+                "nAproveitamentoFinal": "8.5",
+                "sTermoResultadoFinal": "",
+                "sTermoResultadoFinalAbreviado": "",
+                "lAprovadoProgressaoParcial": false
+            }
+        },
+        {
+            "iCodigoRegencia": 104,
+            "sNome": "HISTÓRIA",
+            "aAproveitamento": [
+                {
+                    "iCodigo": 1,
+                    "sDescricao": "1º BIMESTRE",
+                    "sDescricaoAbreviada": "1º BIM",
+                    "sFormaAvaliacao": "NOTA",
+                    "oAproveitamento": {
+                        "nAproveitamento": "7.0",
+                        "iFaltas": 0,
+                        "lAtingiuMinimo": true,
+                        "sParecer": "",
+                        "sTipoAmparo": "",
+                        "aPareceresPadronizados": []
+                    }
+                },
+                {
+                    "iCodigo": 2,
+                    "sDescricao": "2º BIMESTRE",
+                    "sDescricaoAbreviada": "2º BIM",
+                    "sFormaAvaliacao": "NOTA",
+                    "oAproveitamento": {
+                        "nAproveitamento": "4.5",
+                        "iFaltas": 0,
+                        "lAtingiuMinimo": false,
+                        "sParecer": "A aluna precisa se dedicar mais às atividades de leitura e interpretação de fontes históricas.",
+                        "sTipoAmparo": "",
+                        "aPareceresPadronizados": [
+                            {
+                                "sDescricao": "Participa das atividades propostas",
+                                "sLegenda": "S"
+                            },
+                            {
+                                "sDescricao": "Entrega as tarefas no prazo",
+                                "sLegenda": "AV"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "iCodigo": 3,
+                    "sDescricao": "3º BIMESTRE",
+                    "sDescricaoAbreviada": "3º BIM",
+                    "sFormaAvaliacao": "NOTA",
+                    "oAproveitamento": {
+                        "nAproveitamento": "7.0",
+                        "iFaltas": 1,
+                        "lAtingiuMinimo": true,
+                        "sParecer": "",
+                        "sTipoAmparo": "",
+                        "aPareceresPadronizados": []
+                    }
+                },
+                {
+                    "iCodigo": 4,
+                    "sDescricao": "4º BIMESTRE",
+                    "sDescricaoAbreviada": "4º BIM",
+                    "sFormaAvaliacao": "NOTA",
+                    "oAproveitamento": {
+                        "nAproveitamento": "",
+                        "iFaltas": 0,
+                        "lAtingiuMinimo": true,
+                        "sParecer": "",
+                        "sTipoAmparo": "",
+                        "aPareceresPadronizados": []
+                    }
+                }
+            ],
+            "oFrequencia": {
+                "iTotalAulas": 64,
+                "nPercentualFrequencia": "98.4"
+            },
+            "oResultadoFinal": {
+                "nAproveitamentoFinal": "6.2",
+                "sTermoResultadoFinal": "",
+                "sTermoResultadoFinalAbreviado": "",
+                "lAprovadoProgressaoParcial": false
+            }
+        },
+        {
+            "iCodigoRegencia": 105,
+            "sNome": "GEOGRAFIA",
+            "aAproveitamento": [
+                {
+                    "iCodigo": 1,
+                    "sDescricao": "1º BIMESTRE",
+                    "sDescricaoAbreviada": "1º BIM",
+                    "sFormaAvaliacao": "NOTA",
+                    "oAproveitamento": {
+                        "nAproveitamento": "8.0",
+                        "iFaltas": 1,
+                        "lAtingiuMinimo": true,
+                        "sParecer": "",
+                        "sTipoAmparo": "",
+                        "aPareceresPadronizados": []
+                    }
+                },
+                {
+                    "iCodigo": 2,
+                    "sDescricao": "2º BIMESTRE",
+                    "sDescricaoAbreviada": "2º BIM",
+                    "sFormaAvaliacao": "NOTA",
+                    "oAproveitamento": {
+                        "nAproveitamento": "8.0",
+                        "iFaltas": 0,
+                        "lAtingiuMinimo": true,
+                        "sParecer": "",
+                        "sTipoAmparo": "",
+                        "aPareceresPadronizados": []
+                    }
+                },
+                {
+                    "iCodigo": 3,
+                    "sDescricao": "3º BIMESTRE",
+                    "sDescricaoAbreviada": "3º BIM",
+                    "sFormaAvaliacao": "NOTA",
+                    "oAproveitamento": {
+                        "nAproveitamento": "7.5",
+                        "iFaltas": 1,
+                        "lAtingiuMinimo": true,
+                        "sParecer": "",
+                        "sTipoAmparo": "",
+                        "aPareceresPadronizados": []
+                    }
+                },
+                {
+                    "iCodigo": 4,
+                    "sDescricao": "4º BIMESTRE",
+                    "sDescricaoAbreviada": "4º BIM",
+                    "sFormaAvaliacao": "NOTA",
+                    "oAproveitamento": {
+                        "nAproveitamento": "",
+                        "iFaltas": 0,
+                        "lAtingiuMinimo": true,
+                        "sParecer": "",
+                        "sTipoAmparo": "",
+                        "aPareceresPadronizados": []
+                    }
+                }
+            ],
+            "oFrequencia": {
+                "iTotalAulas": 64,
+                "nPercentualFrequencia": "96.9"
+            },
+            "oResultadoFinal": {
+                "nAproveitamentoFinal": "7.8",
+                "sTermoResultadoFinal": "",
+                "sTermoResultadoFinalAbreviado": "",
+                "lAprovadoProgressaoParcial": false
+            }
+        },
+        {
+            "iCodigoRegencia": 106,
+            "sNome": "LÍNGUA INGLESA",
+            "aAproveitamento": [
+                {
+                    "iCodigo": 1,
+                    "sDescricao": "1º BIMESTRE",
+                    "sDescricaoAbreviada": "1º BIM",
+                    "sFormaAvaliacao": "NOTA",
+                    "oAproveitamento": {
+                        "nAproveitamento": "9.5",
+                        "iFaltas": 0,
+                        "lAtingiuMinimo": true,
+                        "sParecer": "",
+                        "sTipoAmparo": "",
+                        "aPareceresPadronizados": []
+                    }
+                },
+                {
+                    "iCodigo": 2,
+                    "sDescricao": "2º BIMESTRE",
+                    "sDescricaoAbreviada": "2º BIM",
+                    "sFormaAvaliacao": "NOTA",
+                    "oAproveitamento": {
+                        "nAproveitamento": "9.0",
+                        "iFaltas": 0,
+                        "lAtingiuMinimo": true,
+                        "sParecer": "",
+                        "sTipoAmparo": "",
+                        "aPareceresPadronizados": []
+                    }
+                },
+                {
+                    "iCodigo": 3,
+                    "sDescricao": "3º BIMESTRE",
+                    "sDescricaoAbreviada": "3º BIM",
+                    "sFormaAvaliacao": "NOTA",
+                    "oAproveitamento": {
+                        "nAproveitamento": "10.0",
+                        "iFaltas": 0,
+                        "lAtingiuMinimo": true,
+                        "sParecer": "",
+                        "sTipoAmparo": "",
+                        "aPareceresPadronizados": []
+                    }
+                },
+                {
+                    "iCodigo": 4,
+                    "sDescricao": "4º BIMESTRE",
+                    "sDescricaoAbreviada": "4º BIM",
+                    "sFormaAvaliacao": "NOTA",
+                    "oAproveitamento": {
+                        "nAproveitamento": "",
+                        "iFaltas": 0,
+                        "lAtingiuMinimo": true,
+                        "sParecer": "",
+                        "sTipoAmparo": "",
+                        "aPareceresPadronizados": []
+                    }
+                }
+            ],
+            "oFrequencia": {
+                "iTotalAulas": 64,
+                "nPercentualFrequencia": "100.0"
+            },
+            "oResultadoFinal": {
+                "nAproveitamentoFinal": "9.5",
+                "sTermoResultadoFinal": "",
+                "sTermoResultadoFinalAbreviado": "",
+                "lAprovadoProgressaoParcial": false
+            }
+        },
+        {
+            "iCodigoRegencia": 107,
+            "sNome": "ARTE",
+            "aAproveitamento": [
+                {
+                    "iCodigo": 1,
+                    "sDescricao": "1º BIMESTRE",
+                    "sDescricaoAbreviada": "1º BIM",
+                    "sFormaAvaliacao": "NOTA",
+                    "oAproveitamento": {
+                        "nAproveitamento": "10.0",
+                        "iFaltas": 0,
+                        "lAtingiuMinimo": true,
+                        "sParecer": "",
+                        "sTipoAmparo": "",
+                        "aPareceresPadronizados": []
+                    }
+                },
+                {
+                    "iCodigo": 2,
+                    "sDescricao": "2º BIMESTRE",
+                    "sDescricaoAbreviada": "2º BIM",
+                    "sFormaAvaliacao": "NOTA",
+                    "oAproveitamento": {
+                        "nAproveitamento": "9.5",
+                        "iFaltas": 0,
+                        "lAtingiuMinimo": true,
+                        "sParecer": "",
+                        "sTipoAmparo": "",
+                        "aPareceresPadronizados": []
+                    }
+                },
+                {
+                    "iCodigo": 3,
+                    "sDescricao": "3º BIMESTRE",
+                    "sDescricaoAbreviada": "3º BIM",
+                    "sFormaAvaliacao": "NOTA",
+                    "oAproveitamento": {
+                        "nAproveitamento": "9.0",
+                        "iFaltas": 1,
+                        "lAtingiuMinimo": true,
+                        "sParecer": "",
+                        "sTipoAmparo": "",
+                        "aPareceresPadronizados": []
+                    }
+                },
+                {
+                    "iCodigo": 4,
+                    "sDescricao": "4º BIMESTRE",
+                    "sDescricaoAbreviada": "4º BIM",
+                    "sFormaAvaliacao": "NOTA",
+                    "oAproveitamento": {
+                        "nAproveitamento": "",
+                        "iFaltas": 0,
+                        "lAtingiuMinimo": true,
+                        "sParecer": "",
+                        "sTipoAmparo": "",
+                        "aPareceresPadronizados": []
+                    }
+                }
+            ],
+            "oFrequencia": {
+                "iTotalAulas": 64,
+                "nPercentualFrequencia": "98.4"
+            },
+            "oResultadoFinal": {
+                "nAproveitamentoFinal": "9.5",
+                "sTermoResultadoFinal": "",
+                "sTermoResultadoFinalAbreviado": "",
+                "lAprovadoProgressaoParcial": false
+            }
+        },
+        {
+            "iCodigoRegencia": 108,
+            "sNome": "EDUCAÇÃO FÍSICA",
+            "aAproveitamento": [
+                {
+                    "iCodigo": 1,
+                    "sDescricao": "1º BIMESTRE",
+                    "sDescricaoAbreviada": "1º BIM",
+                    "sFormaAvaliacao": "NOTA",
+                    "oAproveitamento": {
+                        "nAproveitamento": "9.0",
+                        "iFaltas": 0,
+                        "lAtingiuMinimo": true,
+                        "sParecer": "",
+                        "sTipoAmparo": "",
+                        "aPareceresPadronizados": []
+                    }
+                },
+                {
+                    "iCodigo": 2,
+                    "sDescricao": "2º BIMESTRE",
+                    "sDescricaoAbreviada": "2º BIM",
+                    "sFormaAvaliacao": "NOTA",
+                    "oAproveitamento": {
+                        "nAproveitamento": "9.0",
+                        "iFaltas": 0,
+                        "lAtingiuMinimo": true,
+                        "sParecer": "",
+                        "sTipoAmparo": "",
+                        "aPareceresPadronizados": []
+                    }
+                },
+                {
+                    "iCodigo": 3,
+                    "sDescricao": "3º BIMESTRE",
+                    "sDescricaoAbreviada": "3º BIM",
+                    "sFormaAvaliacao": "NOTA",
+                    "oAproveitamento": {
+                        "nAproveitamento": "9.5",
+                        "iFaltas": 0,
+                        "lAtingiuMinimo": true,
+                        "sParecer": "",
+                        "sTipoAmparo": "",
+                        "aPareceresPadronizados": []
+                    }
+                },
+                {
+                    "iCodigo": 4,
+                    "sDescricao": "4º BIMESTRE",
+                    "sDescricaoAbreviada": "4º BIM",
+                    "sFormaAvaliacao": "NOTA",
+                    "oAproveitamento": {
+                        "nAproveitamento": "",
+                        "iFaltas": 0,
+                        "lAtingiuMinimo": true,
+                        "sParecer": "",
+                        "sTipoAmparo": "",
+                        "aPareceresPadronizados": []
+                    }
+                }
+            ],
+            "oFrequencia": {
+                "iTotalAulas": 64,
+                "nPercentualFrequencia": "100.0"
+            },
+            "oResultadoFinal": {
+                "nAproveitamentoFinal": "9.2",
+                "sTermoResultadoFinal": "",
+                "sTermoResultadoFinalAbreviado": "",
+                "lAprovadoProgressaoParcial": false
+            }
+        }
+    ],
+    "atividades_complementares": [
+        {
+            "escola": "EMEF PROFESSORA MARIA DE NAZARÉ",
+            "nome_turma": "ESPORTES TARDE",
+            "tipo_turma": 4,
+            "turno_turma": "TARDE",
+            "atividades": [
+                "FUTSAL",
+                "XADREZ"
+            ],
+            "aProfissionais": [
+                {
+                    "sNome": "RICARDO ALVES PEREIRA",
+                    "aHorarios": [
+                        {
+                            "sDia": "TERÇA-FEIRA",
+                            "sHoraInicio": "14:00",
+                            "sHoraFinal": "15:30"
+                        },
+                        {
+                            "sDia": "QUINTA-FEIRA",
+                            "sHoraInicio": "14:00",
+                            "sHoraFinal": "15:30"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

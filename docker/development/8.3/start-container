@@ -1,0 +1,58 @@
+#!/usr/bin/env bash
+set -e
+
+# Valida��o do usu�rio supervisor
+if [ "$SUPERVISOR_PHP_USER" != "root" ] && [ "$SUPERVISOR_PHP_USER" != "sail" ]; then
+    echo "You should set SUPERVISOR_PHP_USER to either 'sail' or 'root'."
+    exit 1
+fi
+
+# Ajuste de UID do usu�rio sail (caso WWWUSER esteja definido)
+if [ ! -z "$WWWUSER" ]; then
+    usermod -u $WWWUSER sail
+fi
+
+# Composer
+if [ ! -d /.composer ]; then
+    mkdir /.composer
+fi
+
+chmod -R ugo+rw /.composer
+
+# --- Corrigir permissoes apenas nos diretorios que precisam ---
+echo "Corrigindo permissoes de storage e cache..."
+chown -R sail:sail /var/www/html/storage /var/www/html/bootstrap/cache
+chmod -R 775 /var/www/html/storage /var/www/html/bootstrap/cache
+# --------------------------------------------------------------
+
+# --- Criar link simbolico do storage se nao existir ---
+if [ ! -L /var/www/html/public/storage ]; then
+    echo "Criando link simbolico do storage..."
+    gosu sail php /var/www/html/artisan storage:link || true
+fi
+# ------------------------------------------------------
+
+# --- Verificar dependencias do frontend ---
+if [ -f /var/www/html/package.json ]; then
+    echo "package.json encontrado. Verificando dependencias..."
+    cd /var/www/html
+
+    if [ ! -d node_modules ]; then
+        echo "Instalando dependencias NPM..."
+        gosu sail npm install --no-audit --no-fund
+    else
+        echo "node_modules ja existe. Pulando instalacao."
+    fi
+fi
+# ------------------------------------------
+
+# --- ? Inicializar o supervisord ---
+if [ $# -gt 0 ]; then
+    if [ "$SUPERVISOR_PHP_USER" = "root" ]; then
+        exec "$@"
+    else
+        exec gosu $WWWUSER "$@"
+    fi
+else
+    exec /usr/bin/supervisord -c /etc/supervisor/conf.d/supervisord.conf
+fi

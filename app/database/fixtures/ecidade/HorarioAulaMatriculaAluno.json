@@ -1,0 +1,211 @@
+{
+    "turma": {
+        "turnos": [
+            {
+                "nome": "MANHÃ",
+                "dias_semana": [
+                    {
+                        "nome": "SEGUNDA-FEIRA",
+                        "periodos": [
+                            {
+                                "nome_periodo": "1º PERÍODO",
+                                "inicio_periodo": "07:00",
+                                "termino_periodo": "07:50",
+                                "disciplina": "LÍNGUA PORTUGUESA",
+                                "professor": "FERNANDA COSTA"
+                            },
+                            {
+                                "nome_periodo": "2º PERÍODO",
+                                "inicio_periodo": "07:50",
+                                "termino_periodo": "08:40",
+                                "disciplina": "LÍNGUA PORTUGUESA",
+                                "professor": "FERNANDA COSTA"
+                            },
+                            {
+                                "nome_periodo": "3º PERÍODO",
+                                "inicio_periodo": "08:40",
+                                "termino_periodo": "09:30",
+                                "disciplina": "MATEMÁTICA",
+                                "professor": "MARCOS VINÍCIUS ROCHA"
+                            },
+                            {
+                                "nome_periodo": "4º PERÍODO",
+                                "inicio_periodo": "09:50",
+                                "termino_periodo": "10:40",
+                                "disciplina": "CIÊNCIAS",
+                                "professor": "JULIANA MENDES"
+                            },
+                            {
+                                "nome_periodo": "5º PERÍODO",
+                                "inicio_periodo": "10:40",
+                                "termino_periodo": "11:30",
+                                "disciplina": "ARTE",
+                                "professor": "BEATRIZ SANTANA"
+                            }
+                        ]
+                    },
+                    {
+                        "nome": "TERÇA-FEIRA",
+                        "periodos": [
+                            {
+                                "nome_periodo": "1º PERÍODO",
+                                "inicio_periodo": "07:00",
+                                "termino_periodo": "07:50",
+                                "disciplina": "MATEMÁTICA",
+                                "professor": "MARCOS VINÍCIUS ROCHA"
+                            },
+                            {
+                                "nome_periodo": "2º PERÍODO",
+                                "inicio_periodo": "07:50",
+                                "termino_periodo": "08:40",
+                                "disciplina": "MATEMÁTICA",
+                                "professor": "MARCOS VINÍCIUS ROCHA"
+                            },
+                            {
+                                "nome_periodo": "3º PERÍODO",
+                                "inicio_periodo": "08:40",
+                                "termino_periodo": "09:30",
+                                "disciplina": "HISTÓRIA",
+                                "professor": "ANTÔNIO FERREIRA"
+                            },
+                            {
+                                "nome_periodo": "4º PERÍODO",
+                                "inicio_periodo": "09:50",
+                                "termino_periodo": "10:40",
+                                "disciplina": "GEOGRAFIA",
+                                "professor": "PATRÍCIA NUNES"
+                            },
+                            {
+                                "nome_periodo": "5º PERÍODO",
+                                "inicio_periodo": "10:40",
+                                "termino_periodo": "11:30",
+                                "disciplina": "LÍNGUA INGLESA",
+                                "professor": "JOHN SMITH OLIVEIRA"
+                            }
+                        ]
+                    },
+                    {
+                        "nome": "QUARTA-FEIRA",
+                        "periodos": [
+                            {
+                                "nome_periodo": "1º PERÍODO",
+                                "inicio_periodo": "07:00",
+                                "termino_periodo": "07:50",
+                                "disciplina": "CIÊNCIAS",
+                                "professor": "JULIANA MENDES"
+                            },
+                            {
+                                "nome_periodo": "2º PERÍODO",
+                                "inicio_periodo": "07:50",
+                                "termino_periodo": "08:40",
+                                "disciplina": "LÍNGUA PORTUGUESA",
+                                "professor": "FERNANDA COSTA"
+                            },
+                            {
+                                "nome_periodo": "3º PERÍODO",
+                                "inicio_periodo": "08:40",
+                                "termino_periodo": "09:30",
+                                "disciplina": "EDUCAÇÃO FÍSICA",
+                                "professor": "RICARDO ALVES PEREIRA"
+                            },
+                            {
+                                "nome_periodo": "4º PERÍODO",
+                                "inicio_periodo": "09:50",
+                                "termino_periodo": "10:40",
+                                "disciplina": "EDUCAÇÃO FÍSICA",
+                                "professor": "RICARDO ALVES PEREIRA"
+                            },
+                            {
+                                "nome_periodo": "5º PERÍODO",
+                                "inicio_periodo": "10:40",
+                                "termino_periodo": "11:30",
+                                "disciplina": "HISTÓRIA",
+                                "professor": "ANTÔNIO FERREIRA"
+                            }
+                        ]
+                    },
+                    {
+                        "nome": "QUINTA-FEIRA",
+                        "periodos": [
+                            {
+                                "nome_periodo": "1º PERÍODO",
+                                "inicio_periodo": "07:00",
+                                "termino_periodo": "07:50",
+                                "disciplina": "MATEMÁTICA",
+                                "professor": "MARCOS VINÍCIUS ROCHA"
+                            },
+                            {
+                                "nome_periodo": "2º PERÍODO",
+                                "inicio_periodo": "07:50",
+                                "termino_periodo": "08:40",
+                                "disciplina": "GEOGRAFIA",
+                                "professor": "PATRÍCIA NUNES"
+                            },
+                            {
+                                "nome_periodo": "3º PERÍODO",
+                                "inicio_periodo": "08:40",
+                                "termino_periodo": "09:30",
+                                "disciplina": "LÍNGUA PORTUGUESA",
+                                "professor": "FERNANDA COSTA"
+                            },
+                            {
+                                "nome_periodo": "4º PERÍODO",
+                                "inicio_periodo": "09:50",
+                                "termino_periodo": "10:40",
+                                "disciplina": "ARTE",
+                                "professor": "BEATRIZ SANTANA"
+                            },
+                            {
+                                "nome_periodo": "5º PERÍODO",
+                                "inicio_periodo": "10:40",
+                                "termino_periodo": "11:30",
+                                "disciplina": "CIÊNCIAS",
+                                "professor": "JULIANA MENDES"
+                            }
+                        ]
+                    },
+                    {
+                        "nome": "SEXTA-FEIRA",
+                        "periodos": [
+                            {
+                                "nome_periodo": "1º PERÍODO",
+                                "inicio_periodo": "07:00",
+                                "termino_periodo": "07:50",
+                                "disciplina": "LÍNGUA INGLESA",
+                                "professor": "JOHN SMITH OLIVEIRA"
+                            },
+                            {
+                                "nome_periodo": "2º PERÍODO",
+                                "inicio_periodo": "07:50",
+                                "termino_periodo": "08:40",
+                                "disciplina": "MATEMÁTICA",
+                                "professor": "MARCOS VINÍCIUS ROCHA"
+                            },
+                            {
+                                "nome_periodo": "3º PERÍODO",
+                                "inicio_periodo": "08:40",
+                                "termino_periodo": "09:30",
+                                "disciplina": "LÍNGUA PORTUGUESA",
+                                "professor": "FERNANDA COSTA"
+                            },
+                            {
+                                "nome_periodo": "4º PERÍODO",
+                                "inicio_periodo": "09:50",
+                                "termino_periodo": "10:40",
+                                "disciplina": "HISTÓRIA",
+                                "professor": "ANTÔNIO FERREIRA"
+                            },
+                            {
+                                "nome_periodo": "5º PERÍODO",
+                                "inicio_periodo": "10:40",
+                                "termino_periodo": "11:30",
+                                "disciplina": "GEOGRAFIA",
+                                "professor": "PATRÍCIA NUNES"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

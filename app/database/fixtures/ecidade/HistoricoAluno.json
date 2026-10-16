@@ -1,0 +1,24 @@
+{
+    "etapas": [
+        {
+            "etapa": "6º ANO", "ano_etapa": 2024, "curso": "ENSINO FUNDAMENTAL - 9 ANOS",
+            "escola_etapa": "EMEF PROFESSORA MARIA DE NAZARÉ", "resultado_etapa": "APROVADO",
+            "dias_letivos": 200, "carga_horaria": 800,
+            "disciplinas_etapa": [
+                { "nome_disciplina": "LÍNGUA PORTUGUESA", "situacao_disciplina": "CONCLUÍDO", "aproveitamento_disciplina": "8.5", "resultado_disciplina": "APROVADO", "carga_horaria": 200 },
+                { "nome_disciplina": "MATEMÁTICA", "situacao_disciplina": "CONCLUÍDO", "aproveitamento_disciplina": "7.0", "resultado_disciplina": "APROVADO", "carga_horaria": 200 },
+                { "nome_disciplina": "CIÊNCIAS", "situacao_disciplina": "CONCLUÍDO", "aproveitamento_disciplina": "9.0", "resultado_disciplina": "APROVADO", "carga_horaria": 120 }
+            ]
+        },
+        {
+            "etapa": "7º ANO", "ano_etapa": 2025, "curso": "ENSINO FUNDAMENTAL - 9 ANOS",
+            "escola_etapa": "EMEF PROFESSORA MARIA DE NAZARÉ", "resultado_etapa": "APROVADO",
+            "dias_letivos": 200, "carga_horaria": 800,
+            "disciplinas_etapa": [
+                { "nome_disciplina": "LÍNGUA PORTUGUESA", "situacao_disciplina": "CONCLUÍDO", "aproveitamento_disciplina": "7.8", "resultado_disciplina": "APROVADO", "carga_horaria": 200 },
+                { "nome_disciplina": "MATEMÁTICA", "situacao_disciplina": "CONCLUÍDO", "aproveitamento_disciplina": "6.5", "resultado_disciplina": "APROVADO", "carga_horaria": 200 },
+                { "nome_disciplina": "CIÊNCIAS", "situacao_disciplina": "CONCLUÍDO", "aproveitamento_disciplina": "8.2", "resultado_disciplina": "APROVADO", "carga_horaria": 120 }
+            ]
+        }
+    ]
+}
