@@ -1,12 +1,11 @@
 services:
   laravel.test:
-    container_name: app-scie
+    container_name: portal-aluno-app
     build:
       context: .
       dockerfile: docker/development/8.3/Dockerfile
       args:
         WWWGROUP: ${WWWGROUP:-1000}
-    image: 'registry-gitlab.portovelho.ro.gov.br/desis/scie-app:1.0'
     extra_hosts:
       - 'host.docker.internal:host-gateway'
     ports:
