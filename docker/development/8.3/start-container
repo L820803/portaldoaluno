@@ -1,15 +1,25 @@
 #!/usr/bin/env bash
 set -e
 
-# Valida��o do usu�rio supervisor
+# Validacao do usuario supervisor
 if [ "$SUPERVISOR_PHP_USER" != "root" ] && [ "$SUPERVISOR_PHP_USER" != "sail" ]; then
     echo "You should set SUPERVISOR_PHP_USER to either 'sail' or 'root'."
     exit 1
 fi
 
-# Ajuste de UID do usu�rio sail (caso WWWUSER esteja definido)
-if [ ! -z "$WWWUSER" ]; then
-    usermod -u $WWWUSER sail
+# Ajuste de UID/GID do usuario sail para bater com o dono do codigo montado.
+# Se WWWUSER/WWWGROUP nao vierem do ambiente, usa o dono de /var/www/html,
+# senao o sail (uid 1337) nao consegue escrever em vendor/ e node_modules/.
+WWWUSER="${WWWUSER:-$(stat -c %u /var/www/html)}"
+WWWGROUP="${WWWGROUP:-$(stat -c %g /var/www/html)}"
+
+if [ "$WWWUSER" != "0" ] && [ "$(id -u sail)" != "$WWWUSER" ]; then
+    usermod -u "$WWWUSER" sail
+fi
+
+if [ "$WWWGROUP" != "0" ] && [ "$(id -g sail)" != "$WWWGROUP" ]; then
+    groupmod -o -g "$WWWGROUP" sail
+    usermod -g "$WWWGROUP" sail
 fi
 
 # Composer
@@ -19,11 +29,28 @@ fi
 
 chmod -R ugo+rw /.composer
 
+cd /var/www/html
+
 # --- Corrigir permissoes apenas nos diretorios que precisam ---
 echo "Corrigindo permissoes de storage e cache..."
 chown -R sail:sail /var/www/html/storage /var/www/html/bootstrap/cache
 chmod -R 775 /var/www/html/storage /var/www/html/bootstrap/cache
 # --------------------------------------------------------------
+
+# --- Dependencias PHP (vendor/ nao vai para o git) ---
+if [ ! -f /var/www/html/vendor/autoload.php ]; then
+    echo "vendor/ ausente. Instalando dependencias do Composer..."
+    gosu sail composer install --no-interaction --prefer-dist
+fi
+# -----------------------------------------------------
+
+# --- .env (nao vai para o git) ---
+if [ ! -f /var/www/html/.env ] && [ -f /var/www/html/.env.example ]; then
+    echo ".env ausente. Copiando de .env.example..."
+    gosu sail cp .env.example .env
+    gosu sail php artisan key:generate
+fi
+# ---------------------------------
 
 # --- Criar link simbolico do storage se nao existir ---
 if [ ! -L /var/www/html/public/storage ]; then
@@ -35,7 +62,6 @@ fi
 # --- Verificar dependencias do frontend ---
 if [ -f /var/www/html/package.json ]; then
     echo "package.json encontrado. Verificando dependencias..."
-    cd /var/www/html
 
     if [ ! -d node_modules ]; then
         echo "Instalando dependencias NPM..."
@@ -46,7 +72,7 @@ if [ -f /var/www/html/package.json ]; then
 fi
 # ------------------------------------------
 
-# --- ? Inicializar o supervisord ---
+# --- Inicializar o supervisord ---
 if [ $# -gt 0 ]; then
     if [ "$SUPERVISOR_PHP_USER" = "root" ]; then
         exec "$@"
