@@ -34,7 +34,7 @@ services:
     networks:
       - sail
   redis:
-    container_name: redis
+    container_name: redis-aluno
     image: 'redis:alpine'
     ports:
       - '${FORWARD_REDIS_PORT:-6379}:6379'
