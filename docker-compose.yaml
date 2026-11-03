@@ -36,6 +36,11 @@ services:
   redis:
     container_name: redis-aluno
     image: 'redis:alpine'
+    # A senha vem do .env da raiz (ou de --env-file app/.env) e deve ser a mesma do REDIS_PASSWORD do Laravel
+    command: redis-server --requirepass "${REDIS_PASSWORD:?Defina REDIS_PASSWORD no .env da raiz ou use --env-file app/.env}"
+    environment:
+      # Usada automaticamente pelo redis-cli (healthcheck)
+      REDISCLI_AUTH: '${REDIS_PASSWORD}'
     ports:
       - '${FORWARD_REDIS_PORT:-6379}:6379'
     volumes:
